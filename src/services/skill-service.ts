@@ -2,7 +2,7 @@ import { SkillTree } from 'skill';
 
 export class SkillService {
     public languageSkills: SkillTree = {
-        type: 'Programming', values: [
+        type: 'Programming languages', values: [
             { name: 'TypeScript', type: 'programming', capability: 5 },
             { name: 'JavaScript', type: 'programming', capability: 5 },
             { name: 'NodeJS', type: 'programming', capability: 2 },
@@ -36,7 +36,7 @@ export class SkillService {
     };
 
     public buildTools: SkillTree = {
-        type: 'Build tool', values: [
+        type: 'Build tools', values: [
             { name: 'npm', type: 'buildTool', capability: 3 },
             { name: 'Gradle', type: 'buildTool', capability: 3 },
             { name: 'Maven', type: 'buildTool', capability: 3 }
@@ -50,7 +50,7 @@ export class SkillService {
             { name: 'mySQL', type: 'database', capability: 3 }
         ]
     };
-    public getAllHardSkills() {
+    public getAllSkils() {
         return [this.languageSkills, this.frameworks, this.buildTools, this.css, this.tools, this.database];
     }
 }

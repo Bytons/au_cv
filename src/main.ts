@@ -4,6 +4,7 @@ import {Aurelia} from 'aurelia-framework';
 import {PLATFORM} from 'aurelia-pal';
 import * as Bluebird from 'bluebird';
 import 'materialize-css';
+import 'style/main.scss';
 import environment from './environment';
 
 // remove out if you don't want a Promise polyfill (remove also from webpack.config.js)

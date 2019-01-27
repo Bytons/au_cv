@@ -4,11 +4,11 @@ import {  SkillTree } from './skill';
 
 @autoinject
 export class SkillTreeView {
-public hardSkills: SkillTree[];
+public skills: SkillTree[];
 
     constructor(private skillService: SkillService) { }
 
     protected async attached() {
-        this.hardSkills = await this.skillService.getAllHardSkills();
+        this.skills = await this.skillService.getAllSkils();
     }
 }
