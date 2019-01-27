@@ -1,0 +1,8 @@
+<template>
+        <md-collection>
+        <md-collection-header>
+            <h4>${tree.type}</h4>
+        </md-collection-header>
+        <md-collection-item class="accent-text" repeat.for="skill of tree.values">${skill.name}</md-collection-item>
+    </md-collection>
+</template>

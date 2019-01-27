@@ -1,0 +1,9 @@
+<template>
+    <require from="tree"></require>
+    <div class="row">
+        <div repeat.for="tree of hardSkills" class="col s6">
+            <compose view-model="tree" model.bind="tree">
+                </tree>
+        </div>
+    </div>
+</template>
