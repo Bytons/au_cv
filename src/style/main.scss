@@ -9,3 +9,11 @@
     background-color:#1C6FF3;
     opacity:1;
 }
+
+
+@media screen and (max-width:60em) {
+    h2 {
+		font-size: 2rem !important;
+	}
+}
+
