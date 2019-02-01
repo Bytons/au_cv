@@ -2,24 +2,35 @@
     <require from="materialize-css/dist/css/materialize.css"></require>
     <require from="skill-tree-view"></require>
     <require from="introduction"></require>
+    <require from="projects.html"></require>
     <require from="./resources/elements/navbar"></require>
     <navbar></navbar>
-    <div class="parallax-container" id="top-parallax">
-    </div>
-    <div class="section white" id="introduction">
+    <div class="parallax-container">
         <div class="container">
             <introduction></introduction>
         </div>
+        <div md-parallax id="top-parallax">
+            <img src="images/pitsku.jpg">
+        </div>
+    </div>
+    <div class="section white">
+        <projects></projects>
     </div>
     <div class="parallax-container" id="middle-parallax">
+        <div md-parallax>
+            <img src="images/pitsku.jpg">
         </div>
+    </div>
     <div class="section white">
         <div class="container">
             <skill-tree-view></skill-tree-view>
         </div>
     </div>
     <div class="parallax-container" id="bottom-parallax">
-        <div class="parallax">
+        <div md-parallax>
+            <img src="images/pitsku.jpg">
+        </div>
+        <div class="container">
             <h1 class="center">foo</h1>
         </div>
     </div>
