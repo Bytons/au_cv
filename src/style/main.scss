@@ -52,10 +52,12 @@ img#one-click-img {
     margin-top:5vh;
     .skill-card {
         width: 250px;
-        min-height:250px;
+        min-height: 250px;
+        border-radius: 2px;
         img {
-            width:100%;
-            height:80%;
+            width: 100%;
+            height: 80%;
+            padding: 10px;
             margin-left: auto;
             margin-right: auto;
             display: block;
