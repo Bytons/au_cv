@@ -1,9 +1,17 @@
 
 
 $text_color: rgba(23, 23, 26, 0.603);
+$highlight: rgba(0,0,0,.5);
+
 
 html {
     color: $text_color;
+}
+
+.highlighted-text {
+    background-color:$highlight;
+    color:#fff;
+    border-radius:2px;
 }
 
 
@@ -23,6 +31,10 @@ html {
 #top-nav {
     background-color:#1C6FF3;
     opacity:1;
+}
+
+img#one-click-img {
+    max-width:250px;
 }
 
 @media screen and (max-width:60em) {

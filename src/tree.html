@@ -1,6 +1,13 @@
 <template>
     <h4 class="center">${tree.type}</h4>
-    <md-collection>
-        <md-collection-item class="accent-text" repeat.for="skill of tree.values">${skill.name}</md-collection-item>
-    </md-collection>
+    <div>
+        <div class="card" repeat.for="skill of tree.values">
+            <div class="card-image">
+                <img src.bind="skill.image">
+            </div>
+            <div class="card-content">
+                <p>${skill.name}<p>
+            </div>
+        </div>
+    </div>
 </template>
