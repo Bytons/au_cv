@@ -1,13 +1,8 @@
 <template>
     <h4 class="center">${tree.type}</h4>
-    <div>
-        <div class="card" repeat.for="skill of tree.values">
-            <div class="card-image">
-                <img src.bind="skill.image">
-            </div>
-            <div class="card-content">
-                <p>${skill.name}<p>
-            </div>
+    <div class="flexbox" id="card-holder">
+        <div class="skill-card z-depth-3" repeat.for="skill of tree.values">
+            <img src="${skill.image}" class="responsive-img">
         </div>
     </div>
 </template>
