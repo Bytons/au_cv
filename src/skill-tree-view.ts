@@ -4,7 +4,7 @@ import { SkillTree } from './skill';
 
 @autoinject
 export class SkillTreeView {
-    public heading: string = 'Technologies I am comfortable with';
+
     public skills: SkillTree[];
 
     constructor(private skillService: SkillService) { }

@@ -14,9 +14,16 @@ html {
     border-radius:2px;
 }
 
+.parallax-heading {
+    position: relative;
+    text-align: left;
+    margin-left:10em;
+    top: 50%;
+    margin-top: -50px;
+  }
 
-#top-parallax, #bottom-parallax, #middle-parallax {
-    color: $text_color;
+.skyblue {
+    background-color: #87CEEB;
 }
 
 .title {
@@ -25,7 +32,7 @@ html {
 
 .project-container {
     padding-top: 2vh;
-    padding-bottom: 2vh;
+    padding-bottom: 5vh;
 }
 
 #top-nav, #bottom-footer {
@@ -35,6 +42,10 @@ html {
 
 img#one-click-img {
     max-width:250px;
+}
+
+#technologies {
+    padding-bottom: 10vh;
 }
 
 .flexbox {
@@ -113,6 +124,10 @@ img#one-click-img {
     #card-holder .skill-card {
         margin-right:0;
         width: 100%;
+    }
+
+    .parallax-heading {
+        margin-left:0;
     }
 }
 
