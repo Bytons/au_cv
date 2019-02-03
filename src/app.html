@@ -6,14 +6,14 @@
     <require from="./resources/elements/navbar"></require>
     <navbar></navbar>
     <div class="parallax-container">
-        <div class="container">
+        <div class="container" id="introduction" md-scrollspy>
             <introduction></introduction>
         </div>
         <div md-parallax id="top-parallax">
             <img src="../static/images/watoo.jpg">
         </div>
     </div>
-    <div class="section ">
+    <div class="section white" id="projects" md-scrollspy>
         <projects></projects>
     </div>
     <div class="parallax-container" id="middle-parallax">
@@ -21,7 +21,7 @@
             <img src="../static/images/watoo.jpg">
         </div>
     </div>
-    <div class="section white">
+    <div class="section white" id="technologies" md-scrollspy>
         <div class="container">
             <skill-tree-view></skill-tree-view>
         </div>
@@ -34,4 +34,5 @@
             <h1 class="center">foo</h1>
         </div>
     </div>
+    <footer id="contact" md-scrollspy></footer>
 </template>

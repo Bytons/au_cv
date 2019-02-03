@@ -40,8 +40,7 @@ img#one-click-img {
 .flexbox {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
 }
 
 .tree {
@@ -49,8 +48,10 @@ img#one-click-img {
 }
 
 #card-holder {
-    margin-top:5vh;
+    margin-top:2vh;
     .skill-card {
+        margin-top:1em;
+        margin-right:1em;
         width: 250px;
         min-height: 280px;
         border-radius: 2px;
@@ -75,6 +76,9 @@ img#one-click-img {
     }
 }
 
+.active {
+    background-color: rgba(0,0,0,.1)
+}
 @media screen and (max-width:60em) {
     h2 {
         font-size: 2rem !important;
@@ -83,7 +87,16 @@ img#one-click-img {
     h4 {
         font-size: 1.6rem !important;
     }
+    .flexbox {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+
     #card-holder .skill-card {
+        margin-right:0;
         width: 100%;
         img {
             width: 100%;
