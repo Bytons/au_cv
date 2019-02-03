@@ -1,6 +1,6 @@
 self.__precacheManifest = [
   {
-    "url": "/app~d0ae3f07.263f34fd7acabbffc7d3.chunk.js"
+    "url": "/app~d0ae3f07.cff0f456673bf5ead776.chunk.js"
   },
   {
     "url": "/runtime~app.4fd41a1598857eb299e1.bundle.js"
@@ -180,7 +180,7 @@ self.__precacheManifest = [
     "url": "/eb9c6ba81ad9c71b985d0563c5fde71e.jpg"
   },
   {
-    "revision": "88c11d3810e08cd12e9ce5a1c6396141",
+    "revision": "2fb5aba9a5a3ee387f8ce1f238ed7051",
     "url": "/index.html"
   },
   {
