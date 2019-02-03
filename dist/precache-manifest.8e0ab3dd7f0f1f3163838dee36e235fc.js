@@ -1,6 +1,6 @@
 self.__precacheManifest = [
   {
-    "url": "/app~d0ae3f07.cff0f456673bf5ead776.chunk.js"
+    "url": "/app~d0ae3f07.6fc3a93ce1d6b1c88a76.chunk.js"
   },
   {
     "url": "/runtime~app.4fd41a1598857eb299e1.bundle.js"
@@ -177,14 +177,14 @@ self.__precacheManifest = [
     "url": "/vendors~ec8c427e.68a9b788332d8a25b4a0.chunk.js"
   },
   {
-    "url": "/eb9c6ba81ad9c71b985d0563c5fde71e.jpg"
+    "url": "/c865823f683799d4294837e68f9df513.jpg"
   },
   {
-    "revision": "2fb5aba9a5a3ee387f8ce1f238ed7051",
+    "revision": "313ba329db08492963b05bc628bbaf6f",
     "url": "/index.html"
   },
   {
-    "revision": "eb9c6ba81ad9c71b985d0563c5fde71e",
+    "revision": "c865823f683799d4294837e68f9df513",
     "url": "/images/watoo.jpg"
   },
   {
