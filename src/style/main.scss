@@ -28,7 +28,7 @@ html {
     padding-bottom: 2vh;
 }
 
-#top-nav {
+#top-nav, #bottom-footer {
     background-color:#1C6FF3;
     opacity:1;
 }
@@ -78,6 +78,12 @@ img#one-click-img {
 
 .active {
     background-color: rgba(0,0,0,.1)
+}
+
+#bottom-footer {
+    h5 a {
+        color:cyan;
+    }
 }
 @media screen and (max-width:60em) {
     h2 {
