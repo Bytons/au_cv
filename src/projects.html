@@ -20,6 +20,20 @@
             simple enough for a novice user,
             but efficient enough for a professional user
         </p>
+        <h4>Personal accomplishments</h4>
+        <p class="flow-text">
+            I developed a complete offline capability to Tiira 2 using service workers. What it means is that the users
+            are able to use Tiira 2 offline while
+            they are out in the nature bird watching and making observations. The way it works is that the service
+            worker in the site works as a sort of proxy between the network traffic and the user's browser.
+            The worker caches requests that are made by the page, and only fetches new information from the server when
+            the content is stale and not up to date. This means that all requests are served from the cache and network
+            simultaneously and only updated if needed. The offline magic comes to play when the user has no network
+            connection and the site is still usabled due to the content being cached.
+            Requests that post data (for example, new bird observations) are also cached by the worker, and can be
+            replayed when the network connection is back.
+        </p>
+
     </div>
     <div class="divider"></div>
     <div class="container project-container" id="p2">
@@ -44,6 +58,13 @@
             developing One Click LCA for me were
             in managing a usable, yet information capable system. A lot of automating the user's steps with code,
             whilst still keeping the ability to do everything by themselves was a key design feature.
+        </p>
+
+        <h4>Personal accomplishments</h4>
+        <p class="flow-text">
+            I built a construction material impacts visualisation tool, which helped the end users notice otherwise
+            hard to see errors in their material choices. The feature displays various charts and contextual data from
+            the enviromental impacts of chosen materials of a building project.
         </p>
 
     </div>
