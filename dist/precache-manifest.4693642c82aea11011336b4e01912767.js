@@ -1,6 +1,6 @@
 self.__precacheManifest = [
   {
-    "url": "/app~d0ae3f07.fa93f10c8edcd7a7da46.chunk.js"
+    "url": "/app~d0ae3f07.e7d42d4966a3b9bca5d5.chunk.js"
   },
   {
     "url": "/runtime~app.4fd41a1598857eb299e1.bundle.js"
@@ -180,7 +180,7 @@ self.__precacheManifest = [
     "url": "/c865823f683799d4294837e68f9df513.jpg"
   },
   {
-    "revision": "29134698a7de2457cf6ff8d6dac98b1b",
+    "revision": "c042d7d0a365a1ceba2e4496584afacc",
     "url": "/index.html"
   },
   {
@@ -298,6 +298,10 @@ self.__precacheManifest = [
   {
     "revision": "cde43891991f76a5e7df17ac6d373aff",
     "url": "/images/logos/mySQL-logo.png"
+  },
+  {
+    "revision": "1d1f8b74e255b537842c6cf9a72a1028",
+    "url": "/images/kuva.jpg"
   },
   {
     "revision": "73e24896289a49f3365faf66faec2f65",
